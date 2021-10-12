@@ -1,3 +1,47 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body {
     background-color: #F6F8F9;
 }
+
+#sfondo-header {
+    background-color: white;
+   
+
+
+}
+
+#logo-posizione {
+    padding: 0.5% 0% 0.5% 1%;
+    vertical-align: middle;
+    
+}
+
+#titolo {
+    display: inline;
+    font-size: 40px;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 1%;
+    margin-bottom: 10px;
+}
+
+.container-header {
+    height: 50px;
+    border-bottom: solid 2px #F6F8F9;
+
+}
+
