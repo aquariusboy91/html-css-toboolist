@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<!-- Inizio header con logo -->
+
     <header id="sfondo-header">
 
        <img src="img/logo copia.png" alt="" id="logo-posizione">
@@ -16,6 +19,10 @@
 
     </header>
 
+<!-- fine header con logo -->
+
+
+<!-- inizio parte centrale -->
     <main>
         <div class="container">
 
@@ -25,29 +32,129 @@
                 <button class="bottone1">Add Task</button>
                 <button class="bottone2">Add Section</button>
 
-                
-                
-            
+
             </div>
 
-            <ul id="listaprincipale">
-                <li><h2>New Task</h2>
+<!-- fine parte bottoni NAV -->
+
+<!-- INIZIO lista -->
+
+            <ul style= list-style-type:square; id="listaprincipale">
+
+                <li><h3>New Task</h3>
+
                     <ul style="list-style-type:none;">
-                        <li>
-                            <input type="checkbox" name="" id="">
+
+                        <li class="spaziatura-elementi">
+
+                            <input type="checkbox" name="" id="" checked>
+
                             <span>Quaterly newsletter</span>
+
+                            <button class="bottoni-lista">Editorial</button>
+
+                        </li>
+
+                    </ul>
+                    
+                </li>
+                <li class="spaziatura-elementi-principali"><h3>Today</h3>
+
+                    <ul style="list-style-type:none;">
+
+                        <li class="spaziatura-elementi">
+
+                            <input type="checkbox" name="" id="">
+
+                            <span>Recruiting blog post</span>
+
+                            <button class="bottoni-lista">Editorial</button>
+
+                        <li class="spaziatura-elementi">
+
+                            <input type="checkbox" name="" id="">
+
+                            <span>Mobile App launch</span>
+
+                            <button class="bottoni-lista">Q1 Goals</button>
+
+                        </li>
+
+                        <li class="spaziatura-elementi">
+
+                            <input type="checkbox" name="" id="" checked>
+
+                            <span>Interview John H.</span>
+
+                            <button class="bottoni-lista-fuchsia">Recruiting</button>
+
+                        </li>
+
+                        <li class="spaziatura-elementi">
+
+                            <input type="checkbox" name="" id="">
+
+                            <span>Summit to update mobile storefronts</span>
+
+                            <button class="bottoni-lista-orange">Mobile</button>
+
                         </li>
                     </ul>
+
                 </li>
 
-                
+                <li class="spaziatura-elementi-principali"><h3>Upcoming</h3>
 
+                    <ul style="list-style-type:none;">
+
+                        <li class="spaziatura-elementi">
+
+                            <input type="checkbox" name="" id="" checked>
+
+                            <span>Schedule meeting with alex</span>
+                        </li>
+
+                        <li class="spaziatura-elementi">
+
+                            <input type="checkbox" name="" id="">
+
+                            <span>Homepage refresh</span>
+
+                            <button class="bottoni-lista">Website</button>
+
+                        </li>
+
+                        <li class="spaziatura-elementi">
+
+                            <input type="checkbox" name="" id="">
+
+                            <span>Onboard new sales team members</span>
+
+                            <button class="bottoni-lista-orange">Sales</button>
+
+                        </li>
+
+                        <li class="spaziatura-elementi">
+
+                            <input type="checkbox" name="" id="" checked>
+
+                            <span>Review editorial calendar</span>
+
+                            <button class="bottoni-lista">Editorial</button>
+
+                        </li>
+                    </ul>
+
+                </li>
+
+            
             </ul>
-        
-        </div>
-    </main>
 
-    <footer></footer>
+        </div>
+
+        <!-- FINE LISTA E PARTE CENTRALE  -->
+        
+    </main>
     
 </body>
 </html>
